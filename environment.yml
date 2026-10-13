@@ -1,0 +1,11 @@
+name: python_work1
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - ipykernel>=6,<8
+      - nbformat>=5,<6
+      - nbclient>=0.10,<1
+      - nbconvert>=7,<8
